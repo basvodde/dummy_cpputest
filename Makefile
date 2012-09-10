@@ -11,7 +11,7 @@ all: dummy
 	./dummy
 
 dummy: main.o oneTest.o
-	$(CXX) $(CPPUTEST_LIB) $^ -o $@ 
+	$(CXX) $^ $(CPPUTEST_LIB) -o $@ -lstdc++
 
 clean:
 	@-rm -f *.o
