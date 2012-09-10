@@ -1,7 +1,7 @@
 
 #include "CppUTest/TestHarness.h"
-#include "CppUtest/CommandLineTestRunner.h"
-#include "CppUtest/TestRegistry.h"
+#include "CppUTest/CommandLineTestRunner.h"
+#include "CppUTest/TestRegistry.h"
 
 
 class MyPlugin: public TestPlugin {
